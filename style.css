@@ -1,0 +1,47 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+section{
+    margin-left: 5px;
+
+}
+.flexible{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 65%;
+}
+.mission-width{
+    width: 70%;
+}
+.mission-width img{
+    width: 45%;
+}
+.mission div{
+    margin: 5px;
+}
+.mission h1{
+    text-align: center;
+}
+#mission-bg{
+    background-color: rgb(232, 239, 241);
+    border-radius: 10%;
+    padding: 3%;
+}
+#vission-bg{
+    background-color: rgb(250, 238, 232);
+    border-radius: 10%;
+    padding: 3%;
+}
+#goals-bg{
+    background-color: rgba(234, 245, 81, 0.253);
+    border-radius: 10%;
+    padding: 3%;
+}
+#boder-left{
+    border-left:  7px solid;
+    border-image: linear-gradient(darkblue, darkorchid) 1;
+}
