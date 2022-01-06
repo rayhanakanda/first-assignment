@@ -3,7 +3,7 @@ body{
 }
 section{
     margin-left: 5px;
-
+    margin-top: 20px;
 }
 .flexible{
     display: flex;
@@ -12,7 +12,7 @@ section{
     width: 50%;
 }
 .half-width img{
-    width: 65%;
+    width: 50%;
 }
 .mission-width{
     width: 70%;
@@ -44,4 +44,13 @@ section{
 #boder-left{
     border-left:  7px solid;
     border-image: linear-gradient(darkblue, darkorchid) 1;
+    line-height: 12px;
+}
+.Link-Button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
